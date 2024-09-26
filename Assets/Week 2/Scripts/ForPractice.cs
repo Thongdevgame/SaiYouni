@@ -4,168 +4,148 @@ using UnityEngine;
 
 public class ForPractise : MonoBehaviour
 {
-    private void Start()
+    void Start()
     {
-        // Gọi từng bài tập để kiểm tra kết quả.
-        BaiTap1(); // In tất cả các phần tử trong mảng
-        BaiTap2(); // Tính tổng các phần tử trong mảng
-        BaiTap3(); // Tìm phần tử lớn nhất trong mảng
-        BaiTap4(); // Đếm số lượng số chẵn trong mảng
-        BaiTap5(); // In tất cả các chuỗi trong danh sách
-        BaiTap6(); // Tìm chuỗi dài nhất trong danh sách
-        BaiTap7(); // Tính tổng các số lẻ trong mảng
-        BaiTap8(); // In các số chẵn trong mảng
-        BaiTap9(); // Kiểm tra sự tồn tại của một phần tử trong mảng
-        BaiTap10(); // Đếm số phần tử âm trong mảng
-        BaiTap11(); // In các số lớn hơn 10 trong mảng
-        BaiTap12(); // Tìm chuỗi có độ dài ngắn nhất trong danh sách
-        BaiTap13(); // Nhân đôi tất cả các phần tử trong mảng
-        BaiTap14(); // Tìm số lớn thứ hai trong mảng
-        BaiTap15(); // Tìm chuỗi bắt đầu bằng chữ cái A
-        BaiTap16(); // Kiểm tra danh sách có chứa chuỗi "Hello" không
-        BaiTap17(); // In tất cả các phần tử âm trong mảng
-        BaiTap18(); // Đếm số lần xuất hiện của một phần tử trong mảng
-        BaiTap19(); // Tạo danh sách mới từ các phần tử lớn hơn 10
-        BaiTap20(); // In các chuỗi có độ dài lớn hơn 5 ký tự
+        BaiTap1();  // In các số từ 1 đến 100
+        BaiTap2();  // Tính tổng các số từ 1 đến 50
+        BaiTap3();  // In các số chẵn từ 1 đến 100
+        BaiTap4();  // Tính tích các số từ 1 đến 10
+        BaiTap5();  // Tìm số lớn nhất trong một mảng
+        BaiTap6();  // Tính tổng các số lẻ từ 1 đến 100
+        BaiTap7();  // Đảo ngược chuỗi
+        BaiTap8();  // In bảng cửu chương
+        BaiTap9();  // Đếm các số nguyên dương trong mảng
+        BaiTap10(); // In tam giác số
+        BaiTap11(); // Tìm phần tử nhỏ nhất trong mảng
+        BaiTap12(); // In dãy Fibonacci
+        BaiTap13(); // Tính giai thừa của một số
+        BaiTap14(); // In các số từ n đến 1
+        BaiTap15(); // Tính tổng các phần tử trong mảng
+        BaiTap16(); // Kiểm tra số nguyên tố
+        BaiTap17(); // In ra các số chia hết cho 3
+        BaiTap18(); // Tính tổng các số chẵn trong mảng
+        BaiTap19(); // Tính trung bình cộng của mảng
+        BaiTap20(); // Đếm số ký tự hoa trong chuỗi
     }
 
-    // Bài Tập 1: In Tất Cả Các Phần Tử Trong Mảng
+    // Bài Tập 1: In các số từ 1 đến 100
     void BaiTap1()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để in tất cả các phần tử trong mảng
+       
     }
 
-    // Bài Tập 2: Tính Tổng Các Phần Tử Trong Mảng
+    // Bài Tập 2: Tính tổng các số từ 1 đến 50
     void BaiTap2()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để tính tổng tất cả các phần tử trong mảng
+        
     }
 
-    // Bài Tập 3: Tìm Phần Tử Lớn Nhất Trong Mảng
+    // Bài Tập 3: In các số chẵn từ 1 đến 100
     void BaiTap3()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để tìm phần tử lớn nhất trong mảng
+        
     }
 
-    // Bài Tập 4: Đếm Số Lượng Số Chẵn Trong Mảng
+    // Bài Tập 4: Tính tích các số từ 1 đến 10
     void BaiTap4()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để đếm số lượng phần tử chẵn trong mảng
+        
     }
 
-    // Bài Tập 5: In Tất Cả Các Chuỗi Trong Danh Sách
+    // Bài Tập 5: Tìm số lớn nhất trong mảng
     void BaiTap5()
     {
-        // Tạo một danh sách các chuỗi
-        // Sử dụng foreach để in tất cả các chuỗi trong danh sách
+        
     }
 
-    // Bài Tập 6: Tìm Chuỗi Dài Nhất Trong Danh Sách
+    // Bài Tập 6: Tính tổng các số lẻ từ 1 đến 100
     void BaiTap6()
     {
-        // Tạo một danh sách các chuỗi
-        // Sử dụng foreach để tìm chuỗi dài nhất trong danh sách
+       
     }
 
-    // Bài Tập 7: Tính Tổng Các Số Lẻ Trong Mảng
+    // Bài Tập 7: Đảo ngược chuỗi
     void BaiTap7()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để tính tổng tất cả các số lẻ trong mảng
+        
     }
 
-    // Bài Tập 8: In Các Số Chẵn Trong Mảng
+    // Bài Tập 8: In bảng cửu chương
     void BaiTap8()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để in tất cả các số chẵn trong mảng
+        
     }
 
-    // Bài Tập 9: Kiểm Tra Sự Tồn Tại Của Một Phần Tử Trong Mảng
+    // Bài Tập 9: Đếm các số nguyên dương trong mảng
     void BaiTap9()
     {
-        // Tạo một mảng số nguyên và một phần tử cần kiểm tra
-        // Sử dụng foreach để kiểm tra xem phần tử đó có tồn tại trong mảng không
+        
     }
 
-    // Bài Tập 10: Đếm Số Phần Tử Âm Trong Mảng
+    // Bài Tập 10: In tam giác số
     void BaiTap10()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để đếm số lượng các phần tử âm trong mảng
-    }
+        
+        }
+    
 
-    // Bài Tập 11: In Các Số Lớn Hơn 10 Trong Mảng
+    // Bài Tập 11: Tìm phần tử nhỏ nhất trong mảng
     void BaiTap11()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để in các số lớn hơn 10 trong mảng
+        
     }
 
-    // Bài Tập 12: Tìm Chuỗi Có Độ Dài Ngắn Nhất Trong Danh Sách
+    // Bài Tập 12: In dãy Fibonacci
     void BaiTap12()
     {
-        // Tạo một danh sách các chuỗi
-        // Sử dụng foreach để tìm chuỗi có độ dài ngắn nhất trong danh sách
+        
     }
 
-    // Bài Tập 13: Nhân Đôi Tất Cả Các Phần Tử Trong Mảng
+    // Bài Tập 13: Tính giai thừa của một số
     void BaiTap13()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để nhân đôi tất cả các phần tử trong mảng
+        
     }
 
-    // Bài Tập 14: Tìm Số Lớn Thứ Hai Trong Mảng
+    // Bài Tập 14: In các số từ n đến 1
     void BaiTap14()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để tìm phần tử lớn thứ hai trong mảng
+       
     }
 
-    // Bài Tập 15: Tìm Chuỗi Bắt Đầu Bằng Chữ Cái A
+    // Bài Tập 15: Tính tổng các phần tử trong mảng
     void BaiTap15()
     {
-        // Tạo một danh sách các chuỗi
-        // Sử dụng foreach để tìm và in các chuỗi bắt đầu bằng chữ cái 'A'
+        
     }
 
-    // Bài Tập 16: Kiểm Tra Xem Danh Sách Có Chứa Một Chuỗi Cụ Thể Không
+    // Bài Tập 16: Kiểm tra số nguyên tố
     void BaiTap16()
     {
-        // Tạo một danh sách các chuỗi
-        // Sử dụng foreach để kiểm tra xem danh sách có chứa chuỗi "Hello" hay không
+        
     }
 
-    // Bài Tập 17: In Tất Cả Các Phần Tử Âm Trong Mảng
+    // Bài Tập 17: In các số chia hết cho 3
     void BaiTap17()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để in ra tất cả các phần tử âm trong mảng
+        
     }
 
-    // Bài Tập 18: Đếm Số Lần Xuất Hiện Của Một Phần Tử Trong Mảng
+    // Bài Tập 18: Tính tổng các số chẵn trong mảng
     void BaiTap18()
     {
-        // Tạo một mảng số nguyên và một phần tử cụ thể
-        // Sử dụng foreach để đếm số lần xuất hiện của phần tử cụ thể đó trong mảng
+        
     }
 
-    // Bài Tập 19: Tạo Một Danh Sách Mới Từ Các Phần Tử Lớn Hơn 10 Trong Mảng
+    // Bài Tập 19: Tính trung bình cộng của mảng
     void BaiTap19()
     {
-        // Tạo một mảng số nguyên
-        // Sử dụng foreach để tạo một danh sách mới chứa các phần tử có giá trị lớn hơn 10
+       
     }
 
-    // Bài Tập 20: In Các Chuỗi Có Độ Dài Lớn Hơn 5 Ký Tự
+    // Bài Tập 20: Đếm số ký tự hoa trong chuỗi
     void BaiTap20()
     {
-        // Tạo một danh sách các chuỗi
-        // Sử dụng foreach để in các chuỗi có độ dài lớn hơn 5 ký tự
+        
     }
 }
