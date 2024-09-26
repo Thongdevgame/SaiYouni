@@ -4,29 +4,44 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public int health;
+    public int damage;
+    public float speed;
+    public bool isAlive;
+    public Vector3 position;
 
-    // 5 Enemies variables
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
 
-    //variables 1 
+    public void Attack(Player player)
+    {
+        if (isAlive)
+        {
+            player.TakeDamage(damage);
+        }
+    }
 
-    //variables 2
+    public void Move(Vector3 direction)
+    {
+        position += direction * speed * Time.deltaTime;
+    }
 
-    //variables 3 
+    public void Die()
+    {
+        isAlive = false;
+        // Th?c hi?n các hành ??ng khi k? ??ch ch?t, nh? kích ho?t hi?u ?ng, lo?i b? kh?i b?n ??, v.v.
+    }
 
-    //variables 4 
-
-    //variables 5 
-
-
-    // 5 Enemies methods
-
-    //Method 1
-
-    //Method 2
-
-    //Method 3
-
-    //Method 4
-
-    //Method 5
+    public void Respawn(Vector3 newPosition)
+    {
+        position = newPosition;
+        health = 100;  // H?i ??y máu
+        isAlive = true;
+    }
 }
