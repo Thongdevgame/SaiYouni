@@ -2,7 +2,8 @@
 
 ## Mục Tiêu
 
-Trong bài tập này, bạn sẽ tạo một scene mới trong Unity và thiết kế 5 hệ thống đường đi khác nhau để điều khiển chuyển động của các đối tượng. Các hệ thống đường đi này có thể được sử dụng cho nhân vật hoặc các đối tượng trong trò chơi để di chuyển theo các hướng, hình dạng và hành vi khác nhau.
+Trong bài tập này, bạn sẽ tạo một scene mới trong Unity và thiết kế 5 hệ thống đường đi khác nhau để điều khiển chuyển động của các đối tượng.
+Các hệ thống đường đi này có thể được sử dụng cho nhân vật hoặc các đối tượng trong trò chơi để di chuyển theo các hướng, hình dạng và hành vi khác nhau.
 
 ## Yêu Cầu
 

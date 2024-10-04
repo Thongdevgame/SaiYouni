@@ -26,5 +26,12 @@ public class HealthRandom : MonoBehaviour
     public void RandomHealth()
     {
 
+        int randomHealth = Random.Range(minHealth, maxHealth + 1); //Cong them 1 de bao gom ca maxHealth
+
+        // Gan gia tri ngau nhien vao slide
+        slider.value = randomHealth;
+
+        // In gia tri ra console
+        Debug.Log("Health value: " + randomHealth);
     }
 }
